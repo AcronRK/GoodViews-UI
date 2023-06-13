@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# GoodViews
+This the Frontend for [GoodViews](https://github.com/AcronRK/GoodViews) Learning Project. It serves as a platform for movie enthusiasts to browse, search, and comment on movies. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- Browse and search: Users can easily browse through a collection of movies and search for specific movies using various filters such as genre, release year, and rating.
 
-In the project directory, you can run:
+- Movie details: Each movie has its own dedicated page displaying essential information like title, director, cast, synopsis, and average rating.
 
-### `npm start`
+- Comments: Users can leave comments on movies to share their thoughts and opinions. The comments section allows for easy interaction and discussion among users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Spring Boot**: The backend of the application is developed using Spring Boot, a powerful Java framework that simplifies the development of RESTful APIs.
 
-### `npm test`
+- **MongoDB**: The project utilizes MongoDB, a NoSQL database, to store and retrieve movie data efficiently.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: The frontend of the application is built using React, a popular JavaScript library for building user interfaces. React enables the creation of interactive and responsive components.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository [GoodViews](https://github.com/AcronRK/GoodViews) and [GoodViews-UI](https://github.com/AcronRK/GoodViews-UI):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Backend setup:
+- Install Java Development Kit (JDK) if not already installed.
+- Install and configure MongoDB.
+- Build and run the Spring Boot application
+- By default, this should run on port 8080, If not, the configuration on the frontend section of the project must be changed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Frontend setup:
 
-### `npm run eject`
+- Install Node.js if not already installed.
+- Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ```
+  npm install
+  ```
+- Start the React development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ```
+  npm start
+  ```
+4. Access the application:
+Open your web browser and visit http://localhost:3000 to access the Movie Library.

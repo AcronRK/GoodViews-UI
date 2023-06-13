@@ -24,7 +24,7 @@ const Hero = ({movies}) => {
                 return(
                     <Paper key={movie.imdbId}>
                         <div className = 'movie-card-container'>
-                            <div className="movie-card" style={{"--img": `url(${movie.backdrops[3]})`}}>
+                            <div className="movie-card" style={{"--img": `url(${movie.backdrops[1]})`}}>
                                 <div className="movie-detail">
                                     <div className="movie-poster">
                                         <img src={movie.poster} alt="" />

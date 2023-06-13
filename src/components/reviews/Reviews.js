@@ -11,7 +11,6 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
     const revText = useRef();
     let params = useParams();
     const movieId = params.movieId;
-    // if(reviews == undefined) reviews = []
 
     useEffect(()=>{
         getMovieData(movieId);

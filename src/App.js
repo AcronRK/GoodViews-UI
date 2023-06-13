@@ -18,15 +18,10 @@ function App() {
 
   const getMovies = async () =>{
     
-    try
-    {
-
+    try{
       const response = await axios.get("http://localhost:8080/api/v1/movies")
-
       setMovies(response.data);
-
-    } 
-    catch(err)
+    }catch(err)
     {
       console.log(err);
     }
